@@ -7,6 +7,26 @@ UPV (Universitat Politécnica de València)'s virtual campus. It
 provides a (poorly designed) graphical interface for navigating the
 user's courses' folders and downloading files.
 
+Usage
+-----
+
+The following scripts are available:
+
+        $ npm run build # Build the extension without source maps
+        $ npm run watch # Build the extension and watch for changes (with source maps)
+        $ npm run cover # Generate test coverage in coverage folder
+        $ npm test      # Run test suite
+
+In order for any of them to work, you must previously run:
+
+        $ npm install   # Install project dependencies in node_modules folder
+
+Having a recent version of NPM installed.
+
+Keep in mind that the extension files are in the **extension**
+folder. Root folder is for project files (test, coverage,
+dependencies, etc.).
+
 Login
 -----
 
