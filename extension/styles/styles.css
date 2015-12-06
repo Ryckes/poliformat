@@ -1,0 +1,141 @@
+body {
+    font-family: Calibri;
+    min-width: 700px;
+    overflow-x: scroll;
+    font-family: 'Helvetica';
+}
+
+#loginFormContainer {
+    background-color: #AAEEAA;
+    border-radius: 5px;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+#loginFormContainer label {
+    display: inline-block;
+    width: 30px;
+}
+
+#loginFormContainer input[type=text] {
+
+}
+
+#loginFormContainer .field {
+    margin: 10px;
+}
+
+#loginFormContainer #buttonContainer {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+#loginFormContainer input[type=submit],
+#loginFormContainer input[type=button]{
+    border: 1px solid grey;
+    padding: 5px;
+    width: 120px;
+}
+
+#status {
+    background-color: #55AAFF;
+    border-radius: 5px;
+    display: none;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+#navList li {
+    background-color: #FF9999;
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+}
+
+#navList li.selected-portal {
+    background-color: #00FFFF;
+}
+
+#nav {
+    display: none;
+}
+
+.portal {
+    background-color: pink;
+}
+
+#subjectList {
+    display: flex;
+    justify-content: center;
+}
+
+.subjectLink {
+    background-color: #BE4C39;
+    border: 1px solid #BE4C39;
+    border-radius: 7px;
+    color: #FFFFFF;
+    display: block;
+    flex-grow: 1;
+    font-size: 1.3em;
+    line-height: 15px;
+    margin: 3px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.subjectLink:hover {
+    background-color: #FFFFFF;
+    color: #BE4C39;
+}
+
+#folderList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itemLink.folder {
+    background-color: #FFFF33;
+    border-top-left-radius: 15px;
+    color: #000000;
+    display: block;
+    font-size: 1.7em;
+    margin: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#fileList {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemLink.file {
+    background-color: #FFFFFF;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #003300;
+    border-left: 6px solid #666666;
+    color: #003300;
+    display: block;
+    font-size: 1.4em;
+    margin: 5px auto;
+    padding: 10px 8px;
+    text-align: left;
+    text-decoration: none;
+    width: 40%;
+}
+
+.itemLink.file:hover {
+    background-color: #003300;
+    color: #FFFFFF;
+}
+
+.itemLink.containerFolder {
+    background-color: #CCCCCC;
+}

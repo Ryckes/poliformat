@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+	<script type="text/javascript" src="js/lib/jquery.js"></script>
+	<script type="text/javascript" src="js/bundled/popup-bundled.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+  <body>
+
+      <div id="loginFormContainer">
+	  <form id="loginForm">
+	      <div class="field">
+		  <label>DNI:</label> <input type="password" id="inputDNI" maxlength="12" /><br />
+	      </div>
+	      <div class="field">
+		  <label>PIN:</label> <input type="password" id="inputPin" maxlength="4" size="5" /><br />
+	      </div>
+	      <div id="buttonContainer">
+		  <input type="submit" id="submitButton" value="Login" />
+		  <input type="button" id="saveFormButton" value="Guardar formulario" />
+	      </div>
+	  </form>
+      </div>
+      <div id="status"></div>
+
+      <div id="nav">
+	  <div id="navList"></div>
+
+	  <div id="optionList"></div>
+
+	  <div id="subjectList"></div>
+
+          <br />
+          <div id="itemList">
+	      <div id="folderList"></div>
+              <div id="fileList"></div>
+          </div>
+      </div>
+  </body>
+</html>

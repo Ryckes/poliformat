@@ -1,0 +1,127 @@
+
+body
+{
+	background-color:#EEEEEE;
+	color:#333333;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+#logo
+{
+	width:auto;
+	height:65px;
+
+	display:inline;
+	margin-right:5px;
+	vertical-align:middle;
+}
+
+#title
+{
+	color:#666666;
+	font-size:3em;
+	font-weight:normal;
+}
+
+#container
+{
+	width:60%;
+
+	background-color:#FFFFFF;
+	border:1px solid #666666;
+	border-radius:5px;
+	margin:auto;
+	margin-top:10px;
+	padding:20px;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.break
+{
+	clear:both;
+}
+
+hr
+{
+	clear: both;
+
+	margin: 20px 0;
+}
+
+.optionsLegend
+{
+	color:#666666;
+	font-size:1.5em;
+}
+
+.leftSide
+{
+	width:40%;
+}
+
+.rightSide
+{
+	width:53%;
+}
+
+.leftSide, .rightSide
+{
+	float:left;
+	padding:10px;
+	padding-top:0;
+}
+
+.optionName
+{
+	font-weight:bold;
+}
+
+.listOfElements
+{
+	margin:0;
+	padding:0;
+}
+
+.listOfElements > li
+{
+	list-style-type: none;
+}
+
+.delete
+{
+	color:#CC0000;
+	text-decoration:none;
+}
+
+.delete:hover
+{
+	text-decoration:underline;
+}
+
+.status
+{
+	color:#BBBBBB;
+	font-size:0.8em;
+}
+
+input[type=text]
+{
+	border:1px solid #BBBBBB;
+	padding:2px;
+}
+
+input[type=text]:focus
+{
+	border:1px solid #444444;
+}
+
+#intervalField
+{
+	width:40px;
+}

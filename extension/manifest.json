@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+
+    "name": "PoliformaT unofficial browser",
+    "short_name": "PoliformaT browser",
+    "description": "Allow login and browsing of PoliformaT files and folders",
+    "version": "0.1.4",
+
+    "icons": {
+        "32": "img/32.png",
+        "48": "img/48.png",
+        "128": "img/128.png"
+    },
+
+    "permissions": [
+	"https://*/*",
+	"http://*/*",
+	"tabs",
+	"notifications",
+        "cookies",
+	"storage"
+    ],
+    "background": {
+	"page": "background.html"
+    },
+    "web_accessible_resources":[
+	"img/32.png"
+    ],
+    "browser_action": {
+	"default_title": "PoliformaT",
+	"default_popup": "popup.html"
+    }
+}
